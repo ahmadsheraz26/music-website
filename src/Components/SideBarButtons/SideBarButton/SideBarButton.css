@@ -1,0 +1,32 @@
+.SideBarButton > svg{
+    width: 2rem;
+    margin: auto;
+}
+.SideBarButton:hover {
+    border-left: 5px solid;
+    border-image-source: linear-gradient(180deg, #33C9CC 0%, #69ECEF 175%);
+    border-image-slice: 1;
+    box-shadow: -3px 1px 3px hsl(0,0%,16.7%)
+}
+.SideBarButton > svg > path {
+    fill:#484848;
+}
+.SideBarButton:hover > #MusicIcon > path, 
+.SideBarButton:hover > #MicIcon > path {
+    fill:url('#g1');
+}
+.SideBarButton:hover > #MicIcon > line,
+.SideBarButton:hover > #AlbumIcon path,
+.SideBarButton:hover > #AlbumIcon > g > path
+ {
+    stroke:url('#g1')
+}
+.SideBarButton > svg line,
+.SideBarButton > #AlbumIcon > g > path {
+    stroke: #484848;
+}
+.SideBarButton {
+    display: flex;
+    padding: 16px;
+    height: 33.33%;
+}

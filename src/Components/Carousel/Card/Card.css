@@ -1,0 +1,59 @@
+/* Card Style */
+.Card {
+    position: relative;
+    width: 304px;
+    height: 304px;   
+    background-color: #6D6D6C;
+    color: white;
+    font-size: 1rem;
+    padding: 24px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Card:hover {
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.2), 
+    0px 17px 26px rgba(0, 0, 0, 0.14), 
+    0px 6px 32px rgba(0, 0, 0, 0.12);
+}
+.Card svg {
+    width: 32px;
+    height: 32px;
+}
+.Card .Card_Stats {
+    display: flex;
+    justify-content: flex-end;
+}
+.Card .Card_Stats > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card_Stats > .Likes:hover > svg > path {
+    stroke: url("#g1");
+    fill: url("#g1");    
+}
+.Card_Stats > .Popularity:hover > svg > path {
+    stroke: #33C9CC;
+}
+.Card_Stats > .Likes:hover > label, .Card_Stats > .Popularity:hover > label  {
+    color: #33C9CC;
+    font-weight: bold;
+}
+.Card .Card_Details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.4em;
+}
+.Card .Card_Arrow{
+    position: absolute;
+    bottom: 1rem;
+    right: 1.1rem;
+}
+.Card .Card_Details .Card_Label_Desc {
+    font-size: 0.65em;
+}
+.Card:hover {
+    background: linear-gradient(360deg, #33C9CC 0%, #58E4CB 99.28%, #69ECEF 155.21%);
+    
+}

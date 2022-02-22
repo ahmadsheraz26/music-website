@@ -1,0 +1,20 @@
+.MovementIcons {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    top: 45%;
+
+}
+.NextSlide {
+    right: 1rem;
+}
+.NextSlide path, .PrevSlide path {
+    fill: #33C9CC;
+}
+.PrevSlide {
+    left: 1rem;
+}
+.NextSlide:hover path, .PrevSlide:hover path {
+    fill: white;
+}

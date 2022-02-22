@@ -1,0 +1,23 @@
+.SimpleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46.7%;
+    /* Button Blue Gradient */
+    background: linear-gradient(360deg, #33C9CC 0%, #58E4CB 99.28%, #69ECEF 155.21%);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    min-width: 100px;
+    cursor: pointer;
+}
+.SimpleButton span {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000;
+}
+.SimpleButton:hover {
+    background: linear-gradient(180deg, rgba(134, 131, 127, 0.8) -35%, rgba(134, 131, 127, 0.2) 151%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+}

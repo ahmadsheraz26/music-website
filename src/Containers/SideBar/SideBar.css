@@ -1,0 +1,16 @@
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+}
+.SideBar > #SideBar_Navs {
+    display: flex; 
+    flex-direction: column;
+    flex:0 0 85%
+}
+#SideBar_Navs > div:nth-child(2) {
+    margin-top: 4rem;
+}
+#SideBar_Navs > div:last-child {
+    margin-top: 2rem;
+}

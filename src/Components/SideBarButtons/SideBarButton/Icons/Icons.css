@@ -1,0 +1,6 @@
+#AlbumIcon > path{
+    stroke:#484848
+}
+#AlbumIcon:hover > path {
+    stroke:url("#g1");
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+html body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+#root {
+    height: 100vh;
+    width: 100%;
+}
+#as {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(100px,1fr));
+    grid-template-rows:65% repeat(auto-fit, minmax(0px,1fr));
+    grid-template-areas: 
+    "SideBar Header" 
+    "SideBar MainContent";
+    max-height: 100vh;
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+    margin: auto;   
+}
+#as > header {
+    grid-area: Header;
+    grid-column: span 4;
+}
+#as > nav {
+    grid-area: SideBar;
+}
+#as > main {
+    grid-area: MainContent;
+    grid-column: span 4;
+
+}

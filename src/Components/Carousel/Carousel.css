@@ -1,0 +1,18 @@
+.Carousel {
+    display: flex;  
+} 
+.Carousel  > div:first-child {
+    flex: 0 0 auto;
+    z-index: 1;
+}
+.Carousel > div:last-child {
+    margin-left: -16px;
+}
+@media screen and (max-width:793px) {
+    .Carousel {
+        flex-direction: column;  
+    }
+    .Carousel > div:last-child {
+        margin-left: 0px;
+    }
+}

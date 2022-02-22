@@ -1,0 +1,28 @@
+ .Cards_Wrapper {
+    position: relative; /* For the next and prev icons */
+    width: 100%;
+    overflow: hidden;
+}
+/* OverFlowing Next And Previous Icons */
+.Cards_Wrapper > div:first-child {
+    position: absolute;
+    z-index: 1;
+} 
+.Cards {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.Cards > div {
+    flex: 0 0 auto;
+}
+@media screen and (max-width:793px) {
+    .Cards{
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        scroll-behavior: smooth;
+        flex-direction: column;
+    }
+  }

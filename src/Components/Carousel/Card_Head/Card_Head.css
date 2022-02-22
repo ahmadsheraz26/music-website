@@ -1,0 +1,56 @@
+/* Card Head */
+
+.CardHead {
+    display: flex;
+    width: 304px;
+    height: 304px;
+    font-size: 100%;
+  }
+.LeftCard_Head_Arrow {
+  position: relative;
+  top: 15%;
+  width: 5%;
+  height: 10%;
+}
+.Content {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  background:#303030;
+  padding: 1rem 1rem; 
+}
+.title {
+  position: relative;
+  color: #D1D1D1;
+  font-size: 1.5em;
+  width: 100%;
+}
+/* Search Box */
+.searchBox {
+  position: relative;
+  top: 3rem;
+  width: 100%;
+  height: 10%;
+  border: 1px solid rgba(134, 131, 127, 0.35);
+}
+/* Left Arrow Of Head */
+.Card_Arrow {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 12.09%;
+  height: 12.09%;
+}
+/* @media screen and (max-width:793px) {
+  .CardHead {
+    width: 304px;
+    height: 304px;
+    font-size: 100%;
+  }
+  .LeftCard_Head_Arrow {
+    display: none;
+  }
+  .Content {
+    width: 100%;
+  }
+} */

@@ -1,0 +1,29 @@
+.Header {
+    position: relative;
+    background-image: url("./HeroImage.png");
+    background-size: cover;
+    background-attachment: initial;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#HeroContent > * {
+    margin-bottom: 24px;
+}
+#HeroContent {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color:#B4B4B4;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin:0 auto;
+    width: 70%;
+}

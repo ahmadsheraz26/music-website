@@ -1,0 +1,13 @@
+#Copyright_Details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2rem;
+    font-size: 0.56rem;
+    justify-content: center;
+}
+#Copyright_Details > span {
+    color:#484848;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 1.2rem;
+}

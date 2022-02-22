@@ -1,0 +1,12 @@
+#SocialIcons > svg {
+    width: 2rem;
+}
+#SocialIcons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1.2rem;
+}
+#SocialIcons > svg:hover path {
+    fill:url("#g1");
+}
